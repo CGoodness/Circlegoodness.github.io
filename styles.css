@@ -282,6 +282,26 @@ body {
   margin-bottom: 15px;
 }
 
+/* Responsive untuk mobile */
+@media (max-width: 768px) {
+  .program-img {
+    height: 250px; /* perkecil tinggi gambar */
+  }
+
+  .program-card h4 {
+    font-size: 1.1rem; /* judul lebih kecil */
+  }
+
+  .program-card p {
+    font-size: 0.9rem; /* teks lebih kecil */
+  }
+
+  /* Grid berubah jadi 1 kolom di HP */
+  .program-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .program-card h4 {
   font-size: 1.3rem;
   color: #004aad;
