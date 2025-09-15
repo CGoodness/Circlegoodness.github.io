@@ -68,3 +68,37 @@ if (menuToggle && navMenu) {
     navMenu.classList.remove('active');
   }
 });
+
+// === BERITA TERBARU DI BERANDA ===
+document.addEventListener("DOMContentLoaded", () => {
+  const beritaContainer = document.getElementById("berita-container");
+
+  if (beritaContainer) {
+    fetch("beritalengkap.json")
+      .then(response => response.json())
+      .then(data => {
+        // Ambil hanya 3 berita pertama
+        const beritaTerbaru = data.slice(0, 3);
+
+        beritaTerbaru.forEach(item => {
+          const beritaCard = document.createElement("div");
+          beritaCard.classList.add("berita-card");
+
+          beritaCard.innerHTML = `
+            <a href="${item.link}">
+              <img src="${item.gambar}" alt="${item.judul}" class="berita-img">
+              <h4>${item.judul}</h4>
+            </a>
+            <p>${item.deskripsi}</p>
+          `;
+
+          beritaContainer.appendChild(beritaCard);
+        });
+      })
+      .catch(error => {
+        console.error("Gagal memuat data berita:", error);
+        beritaContainer.innerHTML = "<p>Tidak dapat memuat berita terbaru.</p>";
+      });
+  }
+});
+

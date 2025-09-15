@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semua Berita - LPK Circle Goodness</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo-title">
+        <img src="../images/LOGO CG.png" alt="Logo LPK" class="logo">
+        <h1>LPK Circle Goodness</h1>
+      </div>
+     
+    <!-- Tombol Hamburger -->
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+     <nav class="nav-menu" id="nav-menu">
+         <a href="../index.html">Home</a>
+      <a href="../index.html#about">Tentang Kami</a>
+      <a href="../index.html#program">Bidang</a>
+      <a href="../index.html#pendaftaran">Informasi</a>
+      <a href="../index.html#testimoni">Testimoni</a>
+      <a href="../index.html#gallery">Gallery</a>
+      <a href="../index.html#berita">Berita</a>
+      <a href="../index.html#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container berita">
+    <br><br><br>
+    <h3 class="section-title">Semua Berita</h3>
+    <div class="berita-grid" id="semua-berita-container"></div>
+    <br><br>
+    <a href="../index.html" class="btn-primary">Kembali ke Beranda</a>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> LPK Circle Goodness.</p>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script>
+    // Tampilkan semua berita
+    fetch("../beritalengkap.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("semua-berita-container");
+        data.forEach(item => {
+          const beritaCard = document.createElement("div");
+          beritaCard.classList.add("berita-card");
+          beritaCard.innerHTML = `
+            <a href="../${item.link}">
+              <img src="../${item.gambar}" alt="${item.judul}" class="berita-img">
+              <h4>${item.judul}</h4>
+            </a>
+            <p>${item.deskripsi}</p>
+          `;
+          container.appendChild(beritaCard);
+        });
+      })
+      .catch(error => {
+        console.error("Gagal memuat semua berita:", error);
+      });
+  </script>
+</body>
+</html>

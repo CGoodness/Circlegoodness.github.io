@@ -250,6 +250,7 @@
     </div>
   </div>
 </section>
+
 <!-- Lightbox Pop-up -->
 <div id="lightbox" class="lightbox">
   <span class="close">&times;</span>
@@ -263,33 +264,12 @@
     <h3 class="section-title">Berita Terbaru</h3>
     <p class="berita-description">Informasi terbaru seputar kegiatan dan pencapaian peserta LPK Circle Goodness</p>
     
-    <div class="berita-grid">
-      <!-- Berita 1 -->
-      <div class="berita-card">
-        <a href="berita/keberangkatan-siswa.html">
-          <img src="images/keberangkatan.jpg" alt="Keberangkatan Siswa" class="berita-img">
-          <h4>Keberangkatan Siswa ke Jepang</h4>
-        </a>
-        <p>Siswa LPK Circle Goodness siap memulai perjalanan kerja dan pelatihan di Jepang...</p>
-      </div>
-      
-      <!-- Berita 2 -->
-      <div class="berita-card">
-        <a href="berita/lolos-wawancara.html">
-          <img src="images/wawancara.jpg" alt="Wawancara" class="berita-img">
-          <h4>Lolos Seleksi Wawancara</h4>
-        </a>
-        <p>Peserta berhasil melewati tahap wawancara dengan perusahaan Jepang...</p>
-      </div>
-      
-      <!-- Berita 3 -->
-      <div class="berita-card">
-        <a href="berita/pelatihan-bahasa.html">
-          <img src="images/pelatihan.jpg" alt="Pelatihan Bahasa" class="berita-img">
-          <h4>Pelatihan Bahasa Jepang Intensif</h4>
-        </a>
-        <p>Program pelatihan bahasa Jepang telah dimulai untuk persiapan sebelum keberangkatan...</p>
-      </div>
+    <!-- Berita Grid, diisi otomatis oleh JS -->
+    <div class="berita-grid" id="berita-container"></div>
+
+    <!-- Tombol Lihat Selengkapnya -->
+    <div class="text-center" style="margin-top: 20px;">
+      <a href="berita/index.html" class="btn-primary">Lihat Selengkapnya</a>
     </div>
   </div>
 </section>
@@ -335,6 +315,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
