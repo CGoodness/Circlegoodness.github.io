@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <a href="${item.link}">
               <img src="${item.gambar}" alt="${item.judul}" class="berita-img">
               <h4>${item.judul}</h4>
+               <span class="berita-date">${item.tanggal}</span>
             </a>
             <p>${item.deskripsi}</p>
           `;
