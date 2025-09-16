@@ -332,6 +332,7 @@ body {
 .about-text p {
   line-height: 1.8;
   color: #333;
+  text-align: justify;
 }
 
 /* === PROFIL DIREKTUR === */
@@ -388,6 +389,7 @@ body {
   margin-bottom: 15px;
   text-align: justify;
 }
+
 
 /* Responsif untuk HP */
 @media (max-width: 768px) {
@@ -488,6 +490,7 @@ body {
 .pendaftaran-text {
   flex: 1;
   min-width: 180px;
+  text-align: justify;
 }
 
 .pendaftaran-text ul {
@@ -860,5 +863,4 @@ html, body {
   margin-top: -10px;
   margin-bottom: 10px;
   padding: 0 15px;
-
 }
