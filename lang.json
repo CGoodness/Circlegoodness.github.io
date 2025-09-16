@@ -1,0 +1,113 @@
+{
+  "id": {
+    "home": "Home",
+    "about": "Tentang Kami",
+    "info": "Informasi",
+    "news": "Berita",
+    "hero_title": "Mewujudkan Impianmu Berkarir di Jepang",
+    "register": "DAFTAR SEKARANG",
+
+    "about_title": "Tentang Kami",
+    "about_vision": "“Menjadi Lembaga Pelatihan kerja terdepan di Indonesia yang menghasilkan tenaga kerja profesional, beretika, dan siap bersaing di pasar kerja Jepang serta Global.”",
+    "about_text": "LPK Circle Goodness adalah lembaga pelatihan kerja yang berdedikasi untuk memberdayakan generasi muda indonesia melalui program pelatihan berkualitas yang mempersiapkan siswa untuk bekerja di Jepang. Dengan fokus pada pertumbuhan pribadi dan profesional, LPK Circle Goodness bertujuan untuk memberikan pelatihan terbaik dengan memanfaatkan metode pengajaran bahasa Jepang intensif dan dengan instruktur berpengalaman. Lembaga ini memastikan setiap siswa mendapatkan dukungan belajar, konsultasi mengenai etika kerja dan budaya Jepang, serta meghasilkan lulusan yang unggul dan siap bersaing di pasar kerja Jepang.",
+    "about_textt": "Kami berkomitmen untuk mendukung impian Anda bekerja di Jepang, bahkan jika Anda belum fasih berbicara dalam bahasa Jepang, dengan menyediakan program pelatihan yang lengkap dan terstruktur. LPK Circle Goodness tidak hanya menawarkan pelatihan teknis tetapi juga berkomitmen membangun nilai-nilai moral dan etika kerja yang baik pada setiap siswa.",
+    "director_title": "Direktur Kami",
+    "director_name": "Handika Prasetya",
+    "director_desc": "Bapak Handika Prasetya memiliki pengalaman magang kerja di Jepang selama 5 tahun. Dengan visi meningkatkan kualitas tenaga kerja Indonesia, beliau memimpin LPK Circle Goodness agar menjadi lembaga pelatihan yang terpercaya dan berstandar Internasional.",
+
+    "program_title": "Bidang Pelatihan",
+    "program1_title": "Konstruksi",
+    "program1_desc": "Pelatihan keterampilan kerja di bidang konstruksi, termasuk teknik bangunan dan keamanan kerja.",
+    "program2_title": "Pembersihan Gedung",
+    "program2_desc": "Pelatihan profesional untuk pembersihan dan perawatan gedung agar sesuai standar internasional.",
+    "program3_title": "Industri",
+    "program3_desc": "Pelatihan teknis yang berfokus pada kebutuhan industri modern dan proses manufaktur.",
+
+    "register_info_title": "Informasi Pendaftaran",
+    "register_info_intro": "Untuk mendaftar pelatihan di LPK Circle Goodness, peserta wajib memenuhi syarat berikut:",
+    "req1": "Usia minimal 18 tahun dan maksimal 27 tahun",
+    "req2": "Pria & Wanita lulusan minimal SMA/SMK atau sederajat",
+    "req3": "Sehat jasmani dan rohani",
+    "req4": "Tinggi Badan pria min 160cm, wanita 150cm",
+    "req5": "Tidak buta warna",
+    "req6": "Tidak memiliki riwayat penyakit berat (TBC, kanker, jantung, hepatitis, diabetes)",
+    "req7": "Tidak memiliki kelainan fisik",
+    "register_docs_title": "Berkas persyaratan yang diperlukan:",
+    "doc1": "Ijazah",
+    "doc2": "KTP",
+    "doc3": "Kartu Keluarga",
+    "doc4": "Akta Kelahiran",
+    "register_note": "*Silakan hubungi kami untuk informasi jadwal pendaftaran dan biaya pelatihan.",
+    "contact_button": "Hubungi Kami",
+
+    "testimoni_title": "Testimoni Peserta",
+
+    "gallery_title": "Galeri Kegiatan",
+    "gallery_desc": "Dokumentasi kegiatan pelatihan dan aktivitas LPK Circle Goodness",
+
+    "news_title": "Berita Terbaru",
+    "news_desc": "Informasi terbaru seputar kegiatan dan pencapaian peserta LPK Circle Goodness",
+    "news_more": "Lihat Selengkapnya",
+
+    "contact_title": "Kontak Kami",
+    "contact_text": "Silakan hubungi kami melalui media berikut:",
+
+    "footer_text": "LPK Circle Goodness."
+  },
+
+  "jp": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "info": "情報",
+    "news": "ニュース",
+    "hero_title": "日本でのキャリアの夢を実現しよう",
+    "register": "今すぐ申し込む",
+
+    "about_title": "私たちについて",
+    "about_vision": "「インドネシアで最先端の職業訓練機関となり、専門的で倫理的かつ日本および世界の労働市場で競争できる人材を育成する。」",
+    "about_text": "サークルグッドネスは、インドネシアの若者に日本で働くための高品質な研修を提供する職業訓練機関です。個人と専門性の成長に焦点を当て、日本語集中教育と経験豊富な講師陣によって支援します。学生は学習支援、仕事の倫理や日本文化についての相談を受け、優れた卒業生として日本で活躍できるよう準備します。",
+    "about_textt": "「私たちは、日本語が流暢でなくても、日本での就職という夢を叶えるため、包括的で体系的な研修プログラムを提供することをお約束します。LPK Circle Goodnessは技術的な研修だけでなく、すべての生徒に道徳的価値観と健全な労働倫理を育むことに取り組んでいます。」",
+    "director_title": "私たちの代表",
+    "director_name": "ハンディカ・プラセティヤ",
+    "director_desc": "ハンディカ・プラセティヤ氏は、日本で5年間の実習経験を持っています。インドネシアの人材の質を高めるというビジョンのもと、LPKサークルグッドネスを信頼できる国際基準の研修機関へと導いています。",
+
+    "program_title": "研修分野",
+    "program1_title": "建設",
+    "program1_desc": "建設分野の技能訓練（建築技術、安全管理を含む）。",
+    "program2_title": "ビル清掃",
+    "program2_desc": "国際基準に沿った清掃・メンテナンスの専門研修。",
+    "program3_title": "産業",
+    "program3_desc": "現代産業や製造プロセスのニーズに特化した技術研修。",
+
+    "register_info_title": "応募情報",
+    "register_info_intro": "LPKサークルグッドネスの研修に参加するには、以下の条件を満たす必要があります：",
+    "req1": "年齢：18歳以上27歳以下",
+    "req2": "男女ともに高卒以上",
+    "req3": "健康であること（心身ともに）",
+    "req4": "身長：男性160cm以上、女性150cm以上",
+    "req5": "色盲でないこと",
+    "req6": "重病歴がないこと（結核、がん、心臓病、肝炎、糖尿病など）",
+    "req7": "身体に異常がないこと",
+    "register_docs_title": "必要書類：",
+    "doc1": "卒業証明書（Ijazah）",
+    "doc2": "身分証明書（KTP）",
+    "doc3": "家族カード（KK）",
+    "doc4": "出生証明書（Akta Kelahiran）",
+    "register_note": "※応募スケジュールや費用についてはお問い合わせください。",
+    "contact_button": "お問い合わせ",
+
+    "testimoni_title": "参加者の声",
+
+    "gallery_title": "活動ギャラリー",
+    "gallery_desc": "LPKサークルグッドネスの研修や活動の記録",
+
+    "news_title": "最新ニュース",
+    "news_desc": "LPKサークルグッドネスの活動や成果に関する最新情報",
+    "news_more": "もっと見る",
+
+    "contact_title": "お問い合わせ",
+    "contact_text": "以下の方法でご連絡ください：",
+
+    "footer_text": "LPKサークルグッドネス"
+  }
+}

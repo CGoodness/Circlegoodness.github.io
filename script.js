@@ -123,3 +123,24 @@ window.addEventListener("scroll", () => {
     direkturProfile.classList.add("visible");
   }
 });
+
+let currentLang = localStorage.getItem("lang") || "id";
+
+function setLanguage(lang) {
+  fetch("lang.json")
+    .then(response => response.json())
+    .then(translations => {
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[lang][key]) {
+          el.innerText = translations[lang][key];
+        }
+      });
+      localStorage.setItem("lang", lang);
+    })
+    .catch(err => console.error("Gagal memuat terjemahan:", err));
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setLanguage(currentLang);
+});

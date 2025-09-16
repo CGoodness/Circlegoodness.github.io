@@ -22,128 +22,127 @@
       <span></span>
       <span></span>
     </div>
+
+    <div class="language-switch">
+      <img src="images/flagindo.jpg" alt="Indonesia" onclick="setLanguage('id')" class="flag-icon">
+      <img src="images/flagjpn.jpg" alt="日本語" onclick="setLanguage('jp')" class="flag-icon">
+    </div>
+
     
        <nav class="nav-menu" id="nav-menu">
-        <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#pendaftaran">Informasi</a>
-        <a href="#berita">Berita</a>
+        <a href="#home" data-i18n="home">Home</a>
+        <a href="#about" data-i18n="about">Tentang Kami</a>
+        <a href="#pendaftaran" data-i18n="info">Informasi</a>
+        <a href="#berita" data-i18n="news">Berita</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h2>Mewujudkan Impianmu Berkarir di Jepang</h2>
-      <a href="https://linktr.ee/lpkcirclegoodness?.com" class="btn-primary btn-hero">DAFTAR SEKARANG</a>
-    </div>
-  </section>
-
-<!-- Tentang Kami -->
-  <section id="about" class="about container">
-    <br><br><br><br><br>
-    <h3 class="section-title">Tentang Kami</h3>
-    <div class="about-content">
-    <!-- Teks Visi -->
-    <div class="about-text">
-      <blockquote>
-        “Menjadi Lembaga Pelatihan kerja terdepan di Indonesia yang menghasilkan tenaga kerja profesional, beretika, dan siap bersaing di pasar kerja Jepang serta Global.”
-      </blockquote>
-      <p>
-        LPK Circle Goodness adalah lembaga pelatihan kerja yang berdedikasi untuk memberdayakan generasi muda indonesia melalui program pelatihan berkualitas yang mempersiapkan siswa untuk bekerja di Jepang. Dengan fokus pada pertumbuhan pribadi dan profesional, LPK Circle Goodness bertujuan untuk memberikan pelatihan terbaik dengan memanfaatkan metode pengajaran bahasa Jepang intensif dan dengan instruktur berpengalaman. Lembaga ini memastikan setiap siswa mendapatkan dukungan belajar, konsultasi mengenai etika kerja dan budaya Jepang, serta meghasilkan lulusan yang unggul dan siap bersaing di pasar kerja Jepang.
-        <br><br>
-        Kami berkomitmen untuk mendukung impian Anda bekerja di Jepang, bahkan jika Anda belum fasih
-        berbicara dalam bahasa Jepang, dengan menyediakan program pelatihan yang lengkap dan terstruktur. LPK Circle Goodness tidak hanya menawarkan pelatihan teknis tetapi juga berkomitmen membangun nilai-nilai moral dan etika kerja yang baik pada setiap siswa.
-        <br><br>  
-        サークルグッドネス
-        
-        
-    </p>
-    </div>
-        <div class="direktur-profile">
-      <div class="direktur-photo">
-        <img src="images/direktur1.png" alt="Direktur LPK Circle Goodness">
-      </div>
-      <div class="direktur-info">
-        <h3>Direktur Kami</h3>
-        <h4>Handika Prasetya</h4>
-        <p>
-          Bapak Handika Prasetya memiliki pengalaman Magang kerja di Jepang selama 5 tahun.
-          Dengan visi untuk meningkatkan kualitas tenaga kerja Indonesia, beliau memimpin LPK Circle Goodness 
-          agar menjadi lembaga pelatihan yang terpercaya, profesional, dan berstandar Internasional.
-        </p>
-      </div>
-    </div>
+     <div class="hero-content">
+      <h2 data-i18n="hero_title">Mewujudkan Impianmu Berkarir di Jepang</h2>
+      <a href=https://docs.google.com/forms/d/e/1FAIpQLSf41YHMu9HoXOpKdCNpyrUOc2buyELFMLLfJcQ93NM8Qp-rVQ/viewform target="_blank" class="btn-primary btn-hero" data-i18n="register">DAFTAR SEKARANG</a>
     </div>
 </section>
 
+<!-- Tentang Kami -->
+<section id="about" class="about container">
+  <br><br><br><br><br>
+  <h3 class="section-title" data-i18n="about_title">Tentang Kami</h3>
+  <div class="about-content">
+    <div class="about-text">
+      <blockquote data-i18n="about_vision">
+        “Menjadi Lembaga Pelatihan kerja terdepan di Indonesia ...”
+      </blockquote>
+      <p data-i18n="about_text">
+        LPK Circle Goodness adalah lembaga pelatihan kerja ...
+      </p>
+      <br><br>
+      <p data-i18n="about_textt">
+      Kami berkomitmen untuk mendukung impian Anda bekerja ..."
+      </p>
+      <br><br>
+<p>サークルグッドネス</p>
+    </div>
+    <div class="direktur-profile">
+      <div class="direktur-photo">
+        <img src="images/direktur1.jpg" alt="Direktur LPK Circle Goodness">
+      </div>
+      <div class="direktur-info">
+        <h3 data-i18n="director_title">Direktur Kami</h3>
+        <h4 data-i18n="director_name">Handika Prasetya</h4>
+        <p data-i18n="director_desc">
+          Bapak Handika Prasetya memiliki pengalaman Magang kerja di Jepang ...
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
   <!-- Program / Bidang Pelatihan -->
-  <section id="program" class="program">
-    <div class="container">
-      <h3 class="section-title">Bidang Pelatihan</h3>
-      <div class="program-grid">
-        <div class="program-card">
-          <img src="images/konstruksi.jpg" alt="Bidang Konstruksi" class="program-img">
-          <h4>Konstruksi</h4>
-          <p>Pelatihan keterampilan kerja di bidang konstruksi, termasuk teknik bangunan dan keamanan kerja.</p>
-        </div>
-        <div class="program-card">
-          <img src="images/pembersihan.jpg" alt="Bidang Pembersihan Gedung" class="program-img">
-          <h4>Pembersihan Gedung</h4>
-          <p>Pelatihan profesional untuk pembersihan dan perawatan gedung agar sesuai standar internasional.</p>
-        </div>
-        <div class="program-card">
-          <img src="images/industri.jpg" alt="Bidang Industri" class="program-img">
-          <h4>Industri</h4>
-          <p>Pelatihan teknis yang berfokus pada kebutuhan industri modern dan proses manufaktur.</p>
-        </div>
+<section id="program" class="program">
+  <div class="container">
+    <h3 class="section-title" data-i18n="program_title">Bidang Pelatihan</h3>
+    <div class="program-grid">
+      <div class="program-card">
+        <img src="images/konstruksi.jpg" alt="Bidang Konstruksi" class="program-img">
+        <h4 data-i18n="program1_title">Konstruksi</h4>
+        <p data-i18n="program1_desc">Pelatihan keterampilan kerja di bidang konstruksi...</p>
+      </div>
+      <div class="program-card">
+        <img src="images/pembersihan.jpg" alt="Bidang Pembersihan Gedung" class="program-img">
+        <h4 data-i18n="program2_title">Pembersihan Gedung</h4>
+        <p data-i18n="program2_desc">Pelatihan profesional untuk pembersihan ...</p>
+      </div>
+      <div class="program-card">
+        <img src="images/industri.jpg" alt="Bidang Industri" class="program-img">
+        <h4 data-i18n="program3_title">Industri</h4>
+        <p data-i18n="program3_desc">Pelatihan teknis yang berfokus ...</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
     <!-- Informasi Pendaftaran -->
-  <section id="pendaftaran" class="pendaftaran">
-    <div class="container">
-      <h3 class="section-title">Informasi Pendaftaran</h3>
-      <div class="pendaftaran-content">
-        <div class="pendaftaran-text">
-          <p>
-            Untuk mendaftar pelatihan di LPK Circle Goodness, peserta wajib memenuhi syarat berikut:
-          </p>
-          <ul>
-            <li>Usia minimal 18 tahun dan maksimal 27 tahun</li>
-            <li>Pria & Wanita Lulusan minimal SMA/SMK atau sederajat</li>
-            <li>Sehat Jasmani dan Rohani</li>
-            <li>Tinggi Badan pria min 160cm, wanita 150cm</li>
-            <li>Tidak Buta Warna</li>
-            <li>Tidak memiliki riwayat penyakit dalam seperti TBC, kanker, jantung, hepatitis, diabetes</li>
-            <li>Tinggi memiliki kelainan pada anggota tubuh fisik</li>
-          </ul>
-          <p><br>
-            Berkas Persyaratan yang diperlukan:
-          </p>
-          <ul>
-            <li>Ijazah</li>
-            <li>KTP</li>
-            <li>Kartu Keluarga</li>
-            <li>Akta Kelahiran</li>
-            <br>
-          <p class="info-note">
-            *Silakan hubungi kami untuk informasi jadwal pendaftaran dan biaya pelatihan.
-          </p>
-          <a href="https://wa.me/6281260201882" class="btn-primary btn-wa"><i class="fab fa-whatsapp"></i>   Hubungi Kami</a>
-        </div>
+<section id="pendaftaran" class="pendaftaran">
+  <div class="container">
+    <h3 class="section-title" data-i18n="register_info_title">Informasi Pendaftaran</h3>
+    <div class="pendaftaran-content">
+      <div class="pendaftaran-text">
+        <p data-i18n="register_info_intro">Untuk mendaftar pelatihan di LPK Circle Goodness ...</p>
+        <ul>
+          <li data-i18n="req1">Usia minimal 18 tahun dan maksimal 27 tahun</li>
+          <li data-i18n="req2">Pria & Wanita Lulusan minimal SMA/SMK atau sederajat</li>
+          <li data-i18n="req3">Sehat Jasmani dan Rohani</li>
+          <!-- lanjutkan semua syarat dengan data-i18n -->
+        </ul>
+        <p data-i18n="register_docs_title">Berkas Persyaratan yang diperlukan:</p>
+        <ul>
+          <li data-i18n="doc1">Ijazah</li>
+          <li data-i18n="doc2">KTP</li>
+          <li data-i18n="doc3">Kartu Keluarga</li>
+          <li data-i18n="doc4">Akta Kelahiran</li>
+        </ul>
+        <p class="info-note" data-i18n="register_note">
+          *Silakan hubungi kami untuk informasi jadwal pendaftaran dan biaya pelatihan.
+        </p>
+        <a href="https://wa.me/6281260201882" class="btn-primary btn-wa" data-i18n="contact_button">
+          <i class="fab fa-whatsapp"></i> Hubungi Kami
+        </a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Testimoni -->
 <section id="testimoni" class="testimoni">
-    <div class="container">
-      <h3 class="section-title">Testimoni Peserta</h3>
+  <div class="container">
+    <h3 class="section-title" data-i18n="testimoni_title">Testimoni Peserta</h3>
       <div class="testimoni-slider" id="testimoniSlider">
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
@@ -212,8 +211,8 @@
   <!-- Gallery -->
 <section id="gallery" class="gallery">
   <div class="container">
-    <h3 class="section-title">Galeri Kegiatan</h3>
-    <p class="gallery-description">Dokumentasi kegiatan pelatihan dan aktivitas LPK Circle Goodness</p>
+    <h3 class="section-title" data-i18n="gallery_title">Galeri Kegiatan</h3>
+    <p class="gallery-description" data-i18n="gallery_desc">Dokumentasi kegiatan pelatihan ...</p>
     <div class="gallery-grid">
       <div class="gallery-item">
         <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 1">
@@ -253,25 +252,21 @@
 <!-- Berita Section -->
 <section id="berita" class="berita">
   <div class="container">
-    <h3 class="section-title">Berita Terbaru</h3>
-    <p class="berita-description">Informasi terbaru seputar kegiatan dan pencapaian peserta LPK Circle Goodness</p>
-    
-    <!-- Berita Grid, diisi otomatis oleh JS -->
+    <h3 class="section-title" data-i18n="news_title">Berita Terbaru</h3>
+    <p class="berita-description" data-i18n="news_desc">Informasi terbaru seputar kegiatan ...</p>
     <div class="berita-grid" id="berita-container"></div>
-
-    <!-- Tombol Lihat Selengkapnya -->
     <div class="text-center" style="margin-top: 20px;">
-  <a href="berita/index.html" class="btn-more">Lihat Selengkapnya</a>
-</div>
+      <a href="berita/index.html" class="btn-more" data-i18n="news_more">Lihat Selengkapnya</a>
+    </div>
   </div>
 </section>
 
 
   <!-- Kontak -->
-  <section id="contact" class="contact">
+<section id="contact" class="contact">
   <div class="container text-center">
-    <h3 class="section-title text-white">Kontak Kami</h3>
-    <p>Silakan hubungi kami melalui media berikut:</p>
+    <h3 class="section-title text-white" data-i18n="contact_title">Kontak Kami</h3>
+    <p data-i18n="contact_text">Silakan hubungi kami melalui media berikut:</p>
 
     <!-- Ikon Kontak -->
     <div class="contact-icons">
@@ -300,9 +295,9 @@
 </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; <span id="year"></span> LPK Circle Goodness.</p>
-  </footer>
+<footer class="footer">
+  <p>&copy; <span id="year"></span> <span data-i18n="footer_text">LPK Circle Goodness.</span></p>
+</footer>
 
   <script src="script.js"></script>
 </body>

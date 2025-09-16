@@ -744,6 +744,7 @@ body {
   justify-content: center;
   gap: 25px;
   margin: 5px 0;
+  
 }
 
 .contact-icon {
@@ -863,4 +864,25 @@ html, body {
   margin-top: -10px;
   margin-bottom: 10px;
   padding: 0 15px;
+}
+
+.language-switch {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.flag-icon {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: transform 0.2s;
+}
+
+.flag-icon:hover {
+  transform: scale(1.1);
+  border-color: #004aad;
 }
