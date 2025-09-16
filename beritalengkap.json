@@ -13,6 +13,7 @@
     "link": "berita/keberangkatan-siswa.html",
     "deskripsi": "Siswa LPK Circle Goodness siap memulai perjalanan kerja dan pelatihan di Jepang..."
   },
+  
   {
     "judul": "Lolos Seleksi Wawancara",
     "tanggal": "15-09-2025",
@@ -20,18 +21,20 @@
     "link": "berita/lolos-wawancara.html",
     "deskripsi": "Peserta berhasil melewati tahap wawancara dengan perusahaan Jepang..."
   },
-  {
-    "judul": "Pelatihan Bahasa Jepang Intensif",
-    "tanggal": "15-09-2025",
-    "gambar": "images/pelatihan.jpg",
-    "link": "berita/pelatihan-bahasa.html",
-    "deskripsi": "Program pelatihan bahasa Jepang telah dimulai untuk persiapan sebelum keberangkatan..."
-  },
+
   {
     "judul": "Program Ekstrakulikuler",
     "tanggal": "15-09-2025",
     "gambar": "images/ekstra.jpg",
     "link": "berita/programekstrakulikuler.html",
     "deskripsi": "Selain Pelatihan Bahasa Jepang kami juga membuka program ekstrakulikuler untuk peserta..."
+  },
+  {
+    "judul": "Pelatihan Bahasa Jepang Intensif",
+    "tanggal": "15-09-2025",
+    "gambar": "images/pelatihan.jpg",
+    "link": "berita/pelatihan-bahasa.html",
+    "deskripsi": "Program pelatihan bahasa Jepang telah dimulai untuk persiapan sebelum keberangkatan..."
   }
+  
 ]
