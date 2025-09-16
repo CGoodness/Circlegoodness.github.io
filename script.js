@@ -112,3 +112,14 @@ window.addEventListener("scroll", () => {
     header.style.boxShadow = "0 4px 8px rgba(0,0,0,0.05)";
   }
 });
+
+// Animasi profil direktur saat scroll
+window.addEventListener("scroll", () => {
+  const direkturProfile = document.querySelector(".direktur-profile");
+  const position = direkturProfile.getBoundingClientRect().top;
+  const screenHeight = window.innerHeight;
+
+  if (position < screenHeight - 100) {
+    direkturProfile.classList.add("visible");
+  }
+});
