@@ -103,3 +103,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Efek shadow saat scroll
+window.addEventListener("scroll", () => {
+  const header = document.querySelector(".header");
+  if (window.scrollY > 20) {
+    header.style.boxShadow = "0 4px 12px rgba(0,0,0,0.1)";
+  } else {
+    header.style.boxShadow = "0 4px 8px rgba(0,0,0,0.05)";
+  }
+});

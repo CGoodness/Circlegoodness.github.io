@@ -24,14 +24,26 @@ body {
 /* Header */
 .header {
   width: 100%;
-  background: linear-gradient(90deg, #001a4d, #004aad);
-  color: white;
+  background: rgba(255, 255, 255, 0.7); /* Putih transparan */
+  backdrop-filter: blur(8px); /* Efek blur kaca */
+  -webkit-backdrop-filter: blur(8px); /* Untuk Safari */
+  color: #004aad;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease;
 }
+
+
+.logo-title h1 {
+  color: #004aad; /* Biru */
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
 
 .header-content {
   display: flex;
@@ -61,15 +73,17 @@ body {
 }
 
 .nav-menu a {
-  color: white;
+  color: #004aad; /* Biru */
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-menu a:hover {
-  color: #facc15;
+  color: #f59e0b; /* Warna hover elegan (kuning keemasan) */
 }
+
 
 .menu-toggle {
   display: none;
@@ -81,29 +95,43 @@ body {
 .menu-toggle span {
   width: 25px;
   height: 3px;
-  background: white;
+  background: #004aad !important;  /* Paksa warna biru */
   border-radius: 3px;
+  transition: background 0.3s ease;
 }
+
+
 
 @media (max-width: 768px) {
   /* Menu default tersembunyi */
-  .nav-menu {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: #001a4d;
-    flex-direction: column;
-    width: 100%;
-    max-width: 150px;
-    padding: 10px;
-    display: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
+.nav-menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: #ffffff; /* Putih */
+  flex-direction: column;
+  width: 100%;
+  max-width: 180px;
+  padding: 10px;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border: 1px solid #e5e7eb; /* Garis tipis untuk memisahkan */
+}
+
 
   /* Menu aktif */
-  .nav-menu.active {
-    display: flex;
-  }
+.nav-menu.active {
+  display: flex;
+}
+
+.nav-menu a {
+  color: #004aad; /* Biru */
+}
+
+.nav-menu a:hover {
+  background: #f0f4ff; /* Biru muda untuk hover */
+  border-radius: 5px;
+}
 
   /* Tombol hamburger muncul */
   .menu-toggle {
@@ -120,13 +148,12 @@ body {
   justify-content: center;
   text-align: center;
   color: white;
-  background: url('images/japan-bg.jpg') center/cover no-repeat;
+  background: url('images/japan.jpg') center/cover no-repeat;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 30, 90, 0.7);
   backdrop-filter: blur(2px);
 }
 
@@ -146,20 +173,83 @@ body {
   color: #dce4f0;
 }
 
+/* Tombol Utama */
 .btn-primary {
   display: inline-block;
-  padding: 12px 30px;
-  background: #facc15;
-  color: #00224d;
-  font-weight: bold;
+  padding: 12px 35px;
+  background: linear-gradient(135deg, #004aad, #0077ff);
+  color: #fff;
+  font-weight: 600;
   text-decoration: none;
-  border-radius: 30px;
-  transition: background 0.3s;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 74, 173, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
+/* Efek Hover */
 .btn-primary:hover {
-  background: #fde047;
+  background: linear-gradient(135deg, #0077ff, #004aad);
+  box-shadow: 0 6px 15px rgba(0, 74, 173, 0.4);
+  transform: translateY(-2px);
 }
+
+/* Efek Klik */
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-hero {
+  font-size: 1.1rem;
+  padding: 14px 40px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #facc15, #f59e0b);
+  color: #001a4d;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(250, 204, 21, 0.4);
+}
+
+.btn-hero:hover {
+  background: linear-gradient(135deg, #f59e0b, #facc15);
+  box-shadow: 0 6px 15px rgba(250, 204, 21, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Tombol Khusus WhatsApp */
+.btn-wa {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: white;
+  box-shadow: 0 4px 10px rgba(18, 140, 126, 0.3);
+}
+
+.btn-wa:hover {
+  background: linear-gradient(135deg, #128c7e, #25d366);
+  box-shadow: 0 6px 15px rgba(18, 140, 126, 0.4);
+}
+
+/* Tombol Lihat Selengkapnya */
+.btn-more {
+  display: inline-block;
+  padding: 12px 35px;
+  color: #004aad;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #004aad;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-more:hover {
+  background: #004aad;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 74, 173, 0.4);
+}
+
 
 /* Section Title */
 .section-title {
@@ -170,13 +260,6 @@ body {
   margin-bottom: 20px;
 }
 
-.section-title-contact {
-  text-align: center;
-  font-size: 2rem;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .about-content {
   display: flex;
@@ -546,11 +629,30 @@ body {
 
 /* Contact Section */
 .contact {
-  padding: 2px 0;
-  background: linear-gradient(90deg, #001a4d, #004aad);
-  color: white;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ffffff, #f0f7ff);
+  backdrop-filter: blur(8px); /* Efek kaca */
+  -webkit-backdrop-filter: blur(8px);
+  color: #004aad; /* Warna teks biru */
   text-align: center;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05); /* Bayangan lembut */
+  transition: background 0.3s ease;
 }
+
+.contact-icons i {
+  color: #004aad; /* Biru */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icon:hover i {
+  color: #f59e0b; /* Hover jadi kuning keemasan */
+  transform: scale(1.2);
+}
+
+.contact-details p {
+  color: #004aad;
+}
+
 
 .contact-icons {
   display: flex;
@@ -587,6 +689,8 @@ body {
   text-align: center;
   padding: 15px 0;
 }
+
+
 
 @media (max-width: 768px) {
   /* Hero text lebih kecil di HP */
