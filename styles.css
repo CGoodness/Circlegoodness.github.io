@@ -386,20 +386,7 @@ body {
 .direktur-info p {
   line-height: 1.6;
   margin-bottom: 15px;
-}
-
-.direktur-info ul {
-  list-style: none;
-  padding: 0;
-}
-
-.direktur-info ul li {
-  margin-bottom: 8px;
-  font-size: 0.95rem;
-}
-
-.direktur-info ul li strong {
-  color: #004aad;
+  text-align: justify;
 }
 
 /* Responsif untuk HP */
@@ -873,4 +860,5 @@ html, body {
   margin-top: -10px;
   margin-bottom: 10px;
   padding: 0 15px;
+
 }
