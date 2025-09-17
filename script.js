@@ -196,13 +196,16 @@ document.querySelectorAll('a[data-scroll]').forEach(link => {
 document.addEventListener("DOMContentLoaded", () => {
   const targetId = sessionStorage.getItem("scrollTarget");
   if (targetId) {
-    const targetEl = document.getElementById(targetId);
-    if (targetEl) {
-      targetEl.scrollIntoView({ behavior: 'smooth' });
-    }
-    sessionStorage.removeItem("scrollTarget");
+    setTimeout(() => {
+      const targetEl = document.getElementById(targetId);
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth' });
+      }
+      sessionStorage.removeItem("scrollTarget");
+    }, 300); // kasih delay 300ms
   }
 });
+
 
 
 function loadHomepageGallery() {
