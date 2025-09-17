@@ -5,55 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LPK Circle Goodness</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
   <link rel="icon" type="image/png" href="images/LOGO CG.png">
+
 </head>
 <body>
-  <!-- Header -->
   <header class="header">
     <div class="container header-content">
       <div class="logo-title">
         <img src="images/LOGO CG.png" alt="Logo LPK" class="logo">
         <h1>LPK Circle Goodness</h1>
       </div>
+
+    <div class="language-switch">
+      <span class="fi fi-id" onclick="setLanguage('id')"></span>
+      <span class="fi fi-jp" onclick="setLanguage('jp')"></span>
+    </div>
       
     <div class="menu-toggle" id="menu-toggle">
       <span></span>
       <span></span>
       <span></span>
     </div>
-
-    <div class="language-switch">
-      <img src="images/flagindo.jpg" alt="Indonesia" onclick="setLanguage('id')" class="flag-icon">
-      <img src="images/flagjpn.jpg" alt="日本語" onclick="setLanguage('jp')" class="flag-icon">
-    </div>
-
-    
-       <nav class="nav-menu" id="nav-menu">
-        <a href="#home" data-i18n="home">Home</a>
-        <a href="#about" data-i18n="about">Tentang Kami</a>
-        <a href="#pendaftaran" data-i18n="info">Informasi</a>
-        <a href="#berita" data-i18n="news">Berita</a>
-      </nav>
+ 
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#" data-scroll="home" data-i18n="home">Home</a>
+      <a href="#" data-scroll="about" data-i18n="about">Tentang Kami</a>
+      <a href="#" data-scroll="pendaftaran" data-i18n="pendaftaran">Informasi</a>
+      <a href="#" data-scroll="berita" data-i18n="berita">Berita</a>
+    </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
   <section id="home" class="hero">
      <div class="hero-content">
-      <h2 data-i18n="hero_title">Mewujudkan Impianmu Berkarir di Jepang</h2>
+      <h2 data-i18n="hero_title">Mewujudkan Impianmu</h2>
+      <h2 data-i18n="hero_title1">Berkarir di Jepang</h2>
       <a href=https://docs.google.com/forms/d/e/1FAIpQLSf41YHMu9HoXOpKdCNpyrUOc2buyELFMLLfJcQ93NM8Qp-rVQ/viewform target="_blank" class="btn-primary btn-hero" data-i18n="register">DAFTAR SEKARANG</a>
     </div>
 </section>
 
-<!-- Tentang Kami -->
 <section id="about" class="about container">
   <br><br><br><br><br>
   <h3 class="section-title" data-i18n="about_title">Tentang Kami</h3>
   <div class="about-content">
     <div class="about-text">
       <blockquote data-i18n="about_vision">
-        “Menjadi Lembaga Pelatihan kerja terdepan di Indonesia ...”
+        “Visi : Menjadi Lembaga Pelatihan kerja terdepan di Indonesia ...”
       </blockquote>
       <p data-i18n="about_text">
         LPK Circle Goodness adalah lembaga pelatihan kerja ...
@@ -80,9 +79,6 @@
   </div>
 </section>
 
-
-
-  <!-- Program / Bidang Pelatihan -->
 <section id="program" class="program">
   <div class="container">
     <h3 class="section-title" data-i18n="program_title">Bidang Pelatihan</h3>
@@ -107,7 +103,6 @@
 </section>
 
 
-    <!-- Informasi Pendaftaran -->
 <section id="pendaftaran" class="pendaftaran">
   <div class="container">
     <h3 class="section-title" data-i18n="register_info_title">Informasi Pendaftaran</h3>
@@ -118,7 +113,6 @@
           <li data-i18n="req1">Usia minimal 18 tahun dan maksimal 27 tahun</li>
           <li data-i18n="req2">Pria & Wanita Lulusan minimal SMA/SMK atau sederajat</li>
           <li data-i18n="req3">Sehat Jasmani dan Rohani</li>
-          <!-- lanjutkan semua syarat dengan data-i18n -->
         </ul>
         <p data-i18n="register_docs_title">Berkas Persyaratan yang diperlukan:</p>
         <ul>
@@ -130,7 +124,7 @@
         <p class="info-note" data-i18n="register_note">
           *Silakan hubungi kami untuk informasi jadwal pendaftaran dan biaya pelatihan.
         </p>
-        <a href="https://wa.me/6281260201882" class="btn-primary btn-wa" data-i18n="contact_button">
+        <a href="https://wa.me/6281260201882" target="_blank" class="btn-primary btn-wa" data-i18n="contact_button">
           <i class="fab fa-whatsapp"></i> Hubungi Kami
         </a>
       </div>
@@ -139,162 +133,123 @@
 </section>
 
 
-  <!-- Testimoni -->
 <section id="testimoni" class="testimoni">
   <div class="container">
     <h3 class="section-title" data-i18n="testimoni_title">Testimoni Peserta</h3>
       <div class="testimoni-slider" id="testimoniSlider">
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text1">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name1">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text2">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name3">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text3">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name3">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text4">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name4">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text5">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name5">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text6">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name6">- Anonymous -</span>
         </div>
          <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text7">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name7">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text8">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name8">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
          <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text9">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name9">- Anonymous -</span>
         </div>
          <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text10">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name10">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text11">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name11">- Anonymous -</span>
         </div>
         <div class="testimoni-card">
           <img src="images/testiholder.jpg" alt="Anonymous" class="testimoni-img">
-          <p>“-----”</p>
-          <span>- Anonymous -</span>
+          <p data-i18n="testimoni_text12">“Terbaik Sekali”</p>
+          <span data-i18n="testimoni_name12">- Anonymous -</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Gallery -->
-<section id="gallery" class="gallery">
-  <div class="container">
-    <h3 class="section-title" data-i18n="gallery_title">Galeri Kegiatan</h3>
-    <p class="gallery-description" data-i18n="gallery_desc">Dokumentasi kegiatan pelatihan ...</p>
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 1">
-      </div>
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 2">
-      </div>
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 3">
-      </div>
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 4">
-      </div>
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 5">
-      </div>
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 6">
-      </div>
-       <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 5">
-      </div>
-      <div class="gallery-item">
-        <img src="images/placeholder.png" data-full="images/placeholder.png" alt="Kegiatan 6">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Lightbox Pop-up -->
-<div id="lightbox" class="lightbox">
-  <span class="close">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
-  <div id="caption" class="caption"></div>
-</div>
-
-<!-- Berita Section -->
 <section id="berita" class="berita">
   <div class="container">
     <h3 class="section-title" data-i18n="news_title">Berita Terbaru</h3>
-    <p class="berita-description" data-i18n="news_desc">Informasi terbaru seputar kegiatan ...</p>
+    <p class="berita-description" data-i18n="news_desc">Informasi terbaru seputar kegiatan...</p>
     <div class="berita-grid" id="berita-container"></div>
-    <div class="text-center" style="margin-top: 20px;">
+    <div class="text-center" style="margin-top:20px;">
       <a href="berita/index.html" class="btn-more" data-i18n="news_more">Lihat Selengkapnya</a>
     </div>
   </div>
 </section>
 
+<section id="gallery" class="gallery">
+  <div class="container">
+    <h3 class="section-title" data-i18n="gallery_title">Galeri Kegiatan</h3>
+    <p class="gallery-description" data-i18n="gallery_desc">Dokumentasi kegiatan pelatihan ...</p>
 
-  <!-- Kontak -->
+    <div class="gallery-grid" id="gallery-grid"></div>
+    <div class="text-center" style="margin-top:20px;">
+      <a href="galeri/index.html" class="btn-more" data-i18n="gallery_more">Gambar Lainnya</a>
+    </div>
+    <div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  </div>
+  </div>
+</section>
+
 <section id="contact" class="contact">
   <div class="container text-center">
-    <h3 class="section-title text-white" data-i18n="contact_title">Kontak Kami</h3>
     <p data-i18n="contact_text">Silakan hubungi kami melalui media berikut:</p>
-
-    <!-- Ikon Kontak -->
     <div class="contact-icons">
-      <!-- Email -->
       <a href="mailto:lpkcirclegoodness.bali@gmail.com" class="contact-icon" title="Email">
         <i class="fas fa-envelope"></i>
       </a>
-
-      <!-- WhatsApp -->
       <a href="https://wa.me/6281260201882" target="_blank" class="contact-icon" title="WhatsApp">
         <i class="fab fa-whatsapp"></i>
       </a>
-
-      <!-- Instagram -->
       <a href="https://instagram.com/lpkcirclegoodness?" target="_blank" class="contact-icon" title="Instagram">
         <i class="fab fa-instagram"></i>
       </a>
     </div>
 
-    <!-- Tambahan Teks Kontak -->
     <div class="contact-details">
-      <p><i class="fas fa-phone-alt"></i> +62 812-6020-1882</p>
-      <p><i class="fas fa-map-marker-alt"></i> Jl. Gurita I No. 17 A Sesetan, Denpasar Selatan, Denpasar , Bali</p>
+      <p> <i class="fas fa-phone-alt"></i>  +62 812-6020-1882</p>
+      <p> <i class="fas fa-map-marker-alt"></i>  Jl. Gurita I No. 17 A Sesetan, Denpasar Selatan, Denpasar , Bali</p>
     </div>
   </div>
 </section>
 
-  <!-- Footer -->
 <footer class="footer">
   <p>&copy; <span id="year"></span> <span data-i18n="footer_text">LPK Circle Goodness.</span></p>
 </footer>

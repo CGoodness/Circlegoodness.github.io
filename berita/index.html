@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Semua Berita - LPK Circle Goodness</title>
   <link rel="stylesheet" href="../styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
   <link rel="icon" type="image/png" href="../images/LOGO CG.png">
 </head>
 <body>
-  <!-- Header -->
+
   <header class="header">
     <div class="container header-content">
       <div class="logo-title">
@@ -16,28 +17,33 @@
         <h1>LPK Circle Goodness</h1>
       </div>
      
-    <!-- Tombol Hamburger -->
+    <div class="language-switch">
+      <span class="fi fi-id" onclick="setLanguage('id')"></span>
+      <span class="fi fi-jp" onclick="setLanguage('jp')"></span>
+    </div>
+
     <div class="menu-toggle" id="menu-toggle">
       <span></span>
       <span></span>
       <span></span>
     </div>
-      <nav class="nav-menu" id="nav-menu">
-      <a href="../index.html">Home</a>
-      <a href="../index.html#about">Tentang Kami</a>
-      <a href="../index.html#pendaftaran">Informasi</a>
-      <a href="../index.html#berita">Berita</a>
-    </nav>
+     <nav class="nav-menu" id="nav-menu">
+      <a href="../index.html" data-scroll="home" data-i18n="home">Home</a>
+      <a href="../index.html" data-scroll="about" data-i18n="about">Tentang Kami</a>
+      <a href="../index.html" data-scroll="pendaftaran" data-i18n="pendaftaran">Informasi</a>
+      <a href="../index.html" data-scroll="berita" data-i18n="berita">Berita</a>
+     </nav>
     </div>
   </header>
 
 
   <main class="container berita">
     <br><br><br>
-    <h3 class="section-title">Semua Berita</h3>
-    <div class="berita-grid" id="semua-berita-container"></div>
+    <h3 class="section-title" data-i18n="allnews_title">Semua Berita</h3>
+    <p class="berita-description" data-i18n="allnews_desc">Kumpulan informasi terbaru ...</p>
+    <div class="berita-grid" id="berita-container"></div>
     <br><br>
-    <a href="../index.html" class="btn-primary">Kembali ke Beranda</a>
+    <a href="../index.html" class="btn-primary" data-i18n="back_home">Kembali ke Beranda</a>
   </main>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -46,30 +52,6 @@
   </footer>
 
   <script src="../script.js"></script>
-  <script>
-    // Tampilkan semua berita
-    fetch("../beritalengkap.json")
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById("semua-berita-container");
-        data.forEach(item => {
-          const beritaCard = document.createElement("div");
-          beritaCard.classList.add("berita-card");
-          beritaCard.innerHTML = `
-            <a href="../${item.link}">
-              <img src="../${item.gambar}" alt="${item.judul}" class="berita-img">
-              <h4>${item.judul}</h4>
-              <span class="berita-date">${item.tanggal}</span>
-            </a>
-            <p>${item.deskripsi}</p>
-          `;
-          container.appendChild(beritaCard);
-        });
-      })
-      .catch(error => {
-        console.error("Gagal memuat semua berita:", error);
-      });
-  </script>
   
 </body>
 </html>

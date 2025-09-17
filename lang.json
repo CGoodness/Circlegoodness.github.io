@@ -2,13 +2,14 @@
   "id": {
     "home": "Home",
     "about": "Tentang Kami",
-    "info": "Informasi",
-    "news": "Berita",
-    "hero_title": "Mewujudkan Impianmu Berkarir di Jepang",
+    "pendaftaran": "Informasi",
+    "berita": "Berita",
+    "hero_title": "Mewujudkan Impianmu",
+    "hero_title1": "Berkarir di Jepang",
     "register": "DAFTAR SEKARANG",
 
     "about_title": "Tentang Kami",
-    "about_vision": "“Menjadi Lembaga Pelatihan kerja terdepan di Indonesia yang menghasilkan tenaga kerja profesional, beretika, dan siap bersaing di pasar kerja Jepang serta Global.”",
+    "about_vision": "Visi : “Menjadi Lembaga Pelatihan kerja terdepan di Indonesia yang menghasilkan tenaga kerja profesional, beretika, dan siap bersaing di pasar kerja Jepang serta Global.”",
     "about_text": "LPK Circle Goodness adalah lembaga pelatihan kerja yang berdedikasi untuk memberdayakan generasi muda indonesia melalui program pelatihan berkualitas yang mempersiapkan siswa untuk bekerja di Jepang. Dengan fokus pada pertumbuhan pribadi dan profesional, LPK Circle Goodness bertujuan untuk memberikan pelatihan terbaik dengan memanfaatkan metode pengajaran bahasa Jepang intensif dan dengan instruktur berpengalaman. Lembaga ini memastikan setiap siswa mendapatkan dukungan belajar, konsultasi mengenai etika kerja dan budaya Jepang, serta meghasilkan lulusan yang unggul dan siap bersaing di pasar kerja Jepang.",
     "about_textt": "Kami berkomitmen untuk mendukung impian Anda bekerja di Jepang, bahkan jika Anda belum fasih berbicara dalam bahasa Jepang, dengan menyediakan program pelatihan yang lengkap dan terstruktur. LPK Circle Goodness tidak hanya menawarkan pelatihan teknis tetapi juga berkomitmen membangun nilai-nilai moral dan etika kerja yang baik pada setiap siswa.",
     "director_title": "Direktur Kami",
@@ -41,9 +42,35 @@
     "contact_button": "Hubungi Kami",
 
     "testimoni_title": "Testimoni Peserta",
+    "testimoni_text1": "Terbaik Sekali",
+    "testimoni_name1": "- Anonymous -",
+    "testimoni_text2": "Terbaik Sekali",
+    "testimoni_name2": "- Anonymous -",
+    "testimoni_text3": "Terbaik Sekali",
+    "testimoni_name3": "- Anonymous -",
+    "testimoni_text4": "Terbaik Sekali",
+    "testimoni_name4": "- Anonymous -",
+    "testimoni_text5": "Terbaik Sekali",
+    "testimoni_name5": "- Anonymous -",
+    "testimoni_text6": "Terbaik Sekali",
+    "testimoni_name6": "- Anonymous -",
+    "testimoni_text7": "Terbaik Sekali",
+    "testimoni_name7": "- Anonymous -",
+    "testimoni_text8": "Terbaik Sekali",
+    "testimoni_name8": "- Anonymous -",
+    "testimoni_text9": "Terbaik Sekali",
+    "testimoni_name9": "- Anonymous -",
+    "testimoni_text10": "Terbaik Sekali",
+    "testimoni_name10": "- Anonymous -",
+    "testimoni_text11": "Terbaik Sekali",
+    "testimoni_name11": "- Anonymous -",
+    "testimoni_text12": "Terbaik Sekali",
+    "testimoni_name12": "- Anonymous -",
 
     "gallery_title": "Galeri Kegiatan",
     "gallery_desc": "Dokumentasi kegiatan pelatihan dan aktivitas LPK Circle Goodness",
+    "gallery_name1": "Pelatihan Bahasa Jepang",
+    "gallery_more" : "Gambar Lainnya",
 
     "news_title": "Berita Terbaru",
     "news_desc": "Informasi terbaru seputar kegiatan dan pencapaian peserta LPK Circle Goodness",
@@ -52,19 +79,44 @@
     "contact_title": "Kontak Kami",
     "contact_text": "Silakan hubungi kami melalui media berikut:",
 
-    "footer_text": "LPK Circle Goodness."
+    "footer_text": "LPK Circle Goodness.",
+
+    "allnews_title": "Semua Berita",
+    "allnews_desc": "Kumpulan informasi terbaru seputar kegiatan LPK Circle Goodness",
+    "back_home": "Kembali ke Beranda",
+
+    "news_ekstra_title": "Program Ekstrakulikuler",
+    "news_ekstra_text1": "Siswa LPK Circle Goodness sedang mengikuti Ekstrakulikuler Lari. Program ini menjadikan kondisi tubuh siswa tetap terjaga dan juga meningkatkan kesehatan dan daya tahan tubuh siswa.",
+    "news_ekstra_text2": "Kami berharap semua siswa terus memiliki kesehatan dan ketahanan tubuh yang baik supaya bisa mendaptakan hasil Medical Check Up yang baik.",
+
+    "news_keberangkatan_title": "Keberangkatan Siswa ke Jepang",
+    "news_keberangkatan_text1": "Siswa LPK Circle Goodness memulai perjalanan ke Jepang untuk memulai pelatihan kerja. Ini adalah pencapaian besar setelah melalui proses panjang seleksi, pelatihan bahasa, dan wawancara dengan perusahaan di Jepang. ",
+    "news_keberangkatan_text2": "Kami berharap semua siswa sukses dan membawa nama baik Indonesia selama program kerja di Jepang berlangsung.",
+
+    "news_wawancara_title": "Lolos Seleksi Wawancara",
+    "news_wawancara_text1": "Siswa LPK Circle Goodness berhasil lolos seleksi wawancara dengan perusahaan Jepang. Ini merupakan langkah penting menuju kesempatan berkarier di Jepang setelah melalui persiapan yang matang.",
+    "news_wawancara_text2": "Kami berharap semua siswa yang sudah lolos terus tetap mempersiapkan semuanya dengan matang sebelum berangkat ke Jepang.",
+
+    "news_pelatihan_title": "Pelatihan Bahasa Jepang Intensif",
+    "news_pelatihan_text1": "Siswa LPK Circle Goodness sedang mengikuti pelatihan bahasa Jepang secara intensif. Tahap ini menjadi bekal utama untuk menghadapi dunia kerja di Jepang dengan percaya diri.",
+    "news_pelatihan_text2": "Kami berharap semua siswa terus berusaha semaksimal mungkin untuk bisa berlatih dan menguasai kemampuan bahasa Jepang.",
+
+    "Allgallery_title": "Galeri Kegiatan",
+    "Allgallery_desc": "Dokumentasi foto seluruh kegiatan"
+
   },
 
   "jp": {
     "home": "ホーム",
     "about": "私たちについて",
-    "info": "情報",
-    "news": "ニュース",
-    "hero_title": "日本でのキャリアの夢を実現しよう",
+    "pendaftaran": "情報",
+    "berita": "ニュース",
+    "hero_title": "夢を叶える",
+    "hero_title1": "日本でキャリアを築く",
     "register": "今すぐ申し込む",
 
     "about_title": "私たちについて",
-    "about_vision": "「インドネシアで最先端の職業訓練機関となり、専門的で倫理的かつ日本および世界の労働市場で競争できる人材を育成する。」",
+    "about_vision": "「ビジョン：インドネシアを代表する職業訓練機関として、専門性と倫理観を備えたプロフェッショナルを育成し、日本および世界の労働市場で競争力を持つ人材を輩出すること。」",
     "about_text": "サークルグッドネスは、インドネシアの若者に日本で働くための高品質な研修を提供する職業訓練機関です。個人と専門性の成長に焦点を当て、日本語集中教育と経験豊富な講師陣によって支援します。学生は学習支援、仕事の倫理や日本文化についての相談を受け、優れた卒業生として日本で活躍できるよう準備します。",
     "about_textt": "「私たちは、日本語が流暢でなくても、日本での就職という夢を叶えるため、包括的で体系的な研修プログラムを提供することをお約束します。LPK Circle Goodnessは技術的な研修だけでなく、すべての生徒に道徳的価値観と健全な労働倫理を育むことに取り組んでいます。」",
     "director_title": "私たちの代表",
@@ -97,9 +149,35 @@
     "contact_button": "お問い合わせ",
 
     "testimoni_title": "参加者の声",
+    "testimoni_text1": "最高です",
+    "testimoni_name1": "- 匿名 -",
+    "testimoni_text2": "最高です",
+    "testimoni_name2": "- 匿名 -",
+    "testimoni_text3": "最高です",
+    "testimoni_name3": "- 匿名 -",
+    "testimoni_text4": "最高です",
+    "testimoni_name4": "- 匿名 -",
+    "testimoni_text5": "最高です",
+    "testimoni_name5": "- 匿名 -",
+    "testimoni_text6": "最高です",
+    "testimoni_name6": "- 匿名 -",
+    "testimoni_text7": "最高です",
+    "testimoni_name7": "- 匿名 -",
+    "testimoni_text8": "最高です",
+    "testimoni_name8": "- 匿名 -",
+    "testimoni_text9": "最高です",
+    "testimoni_name9": "- 匿名 -",
+    "testimoni_text10": "最高です",
+    "testimoni_name10": "- 匿名 -",
+    "testimoni_text11": "最高です",
+    "testimoni_name11": "- 匿名 -",
+    "testimoni_text12": "最高です",
+    "testimoni_name12": "- 匿名 -",
 
     "gallery_title": "活動ギャラリー",
     "gallery_desc": "LPKサークルグッドネスの研修や活動の記録",
+    "gallery_name1": "日本語研修",
+    "gallery_more" : "その他の画像",
 
     "news_title": "最新ニュース",
     "news_desc": "LPKサークルグッドネスの活動や成果に関する最新情報",
@@ -108,6 +186,34 @@
     "contact_title": "お問い合わせ",
     "contact_text": "以下の方法でご連絡ください：",
 
-    "footer_text": "LPKサークルグッドネス"
+    "footer_text": "LPKサークルグッドネス",
+
+
+    "allnews_title": "すべてのニュース",
+    "allnews_desc": "サークル・グッドネスの活動に関する最新情報のまとめ",
+    "back_home": "ホームに戻る",
+
+
+    "news_ekstra_title": "課外活動プログラム",
+    "news_ekstra_text1": "LPK Circle Goodnessの生徒たちは、ランニング部活動に参加しています。このプログラムは生徒の体調を維持し、健康と体力向上を図っています。",
+    "news_ekstra_text2": "全ての生徒が良好な健康状態と体力を保ち、健康診断で良い結果を得られることを願っています。",
+
+    "news_keberangkatan_title": "日本への学生出発",
+    "news_keberangkatan_text1": "LPK Circle Goodnessの生徒たちが、日本での職業訓練を開始するため渡航しました。これは、長い選考プロセス、語学研修、そして日本企業との面接を経て成し遂げた大きな成果です。",
+    "news_keberangkatan_text2": "私たちは、すべての生徒が成功を収め、日本での職業訓練プログラム期間中、インドネシアの名誉を高く掲げられることを願っています。",
+
+    "news_wawancara_title": "面接選考に合格",
+    "news_wawancara_text1": "LPK Circle Goodnessの生徒が日本の企業との面接選考に合格しました。これは入念な準備を経て、日本でのキャリア機会に向けた重要な一歩です。",
+    "news_wawancara_text2": "合格した全ての生徒が、日本へ出発する前に引き続き万全の準備を整えることを願っています。",
+
+    "news_pelatihan_title": "日本語集中研修",
+    "news_pelatihan_text1": "LPK Circle Goodnessの生徒たちは、集中的な日本語研修を受けています。この段階は、日本の職場で自信を持って活躍するための重要な基盤となります。",
+    "news_pelatihan_text2": "生徒の皆さんが、日本語の習得に向けて最大限の努力を続けられることを願っています。",
+
+    "Allgallery_title": "活動ギャラリー",
+    "Allgallery_desc": "全活動のフォトドキュメンテーション "
+
+  
+
   }
 }

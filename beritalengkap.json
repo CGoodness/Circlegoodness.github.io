@@ -1,40 +1,42 @@
 [
   {
-    "judul": "Program Ekstrakulikuler",
+    "judul": { "id": "Program Ekstrakulikuler", "jp": "課外活動プログラム" },
     "tanggal": "16-09-2025",
     "gambar": "images/ekstra.jpg",
     "link": "berita/programekstrakulikuler.html",
-    "deskripsi": "Selain Pelatihan Bahasa Jepang kami juga membuka program ekstrakulikuler untuk peserta..."
-  },  
+    "deskripsi": {
+      "id": "Siswa mengikuti Ekstrakulikuler Lari untuk menjaga kesehatan...",
+      "jp": "学生は課外活動としてランニングに参加しています..."
+    }
+  },
   {
-    "judul": "Keberangkatan Siswa ke Jepang",
+    "judul": { "id": "Keberangkatan Siswa ke Jepang", "jp": "日本への学生出発" },
     "tanggal": "15-09-2025",
     "gambar": "images/keberangkatan.jpg",
     "link": "berita/keberangkatan-siswa.html",
-    "deskripsi": "Siswa LPK Circle Goodness siap memulai perjalanan kerja dan pelatihan di Jepang..."
+    "deskripsi": {
+      "id": "Siswa LPK Circle Goodness siap memulai perjalanan kerja dan pelatihan di Jepang...",
+      "jp": "LPKサークルグッドネスの学生が日本での研修と仕事を開始する準備が整いました..."
+    }
   },
-  
   {
-    "judul": "Lolos Seleksi Wawancara",
+    "judul": { "id": "Lolos Seleksi Wawancara", "jp": "面接選考に合格" },
     "tanggal": "15-09-2025",
     "gambar": "images/wawancara.jpg",
     "link": "berita/lolos-wawancara.html",
-    "deskripsi": "Peserta berhasil melewati tahap wawancara dengan perusahaan Jepang..."
-  },
-
-  {
-    "judul": "Program Ekstrakulikuler",
-    "tanggal": "15-09-2025",
-    "gambar": "images/ekstra.jpg",
-    "link": "berita/programekstrakulikuler.html",
-    "deskripsi": "Selain Pelatihan Bahasa Jepang kami juga membuka program ekstrakulikuler untuk peserta..."
+    "deskripsi": {
+      "id": "Siswa berhasil lolos seleksi wawancara dengan perusahaan Jepang...",
+      "jp": "学生が日本企業の面接に合格しました..."
+    }
   },
   {
-    "judul": "Pelatihan Bahasa Jepang Intensif",
+    "judul": { "id": "Pelatihan Bahasa Jepang Intensif", "jp": "日本語集中研修" },
     "tanggal": "15-09-2025",
     "gambar": "images/pelatihan.jpg",
     "link": "berita/pelatihan-bahasa.html",
-    "deskripsi": "Program pelatihan bahasa Jepang telah dimulai untuk persiapan sebelum keberangkatan..."
+    "deskripsi": {
+      "id": "Siswa mengikuti pelatihan bahasa Jepang secara intensif...",
+      "jp": "学生が日本語を集中して学んでいます..."
+    }
   }
-  
 ]
